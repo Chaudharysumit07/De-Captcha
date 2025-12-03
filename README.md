@@ -4,12 +4,10 @@
 The primary goal of DeCaptcha is to automate the recognition of text within CAPTCHA images, which are typically designed to feature complex backgrounds and distorted text to thwart automated systems. This project tackles the challenge through a two-stage pipeline: **Extraction** and **Recognition**.
 
 ## 🛠️ Methodology
-* **1. Image Pre-processing & Segmentation**
-     Before feeding data into the model, raw CAPTCHA images undergo a rigorous pre-processing pipeline to maximize character clarity:
+* **1. Image Pre-processing & Segmentation** <br> Before feeding data into the model, raw CAPTCHA images undergo a rigorous pre-processing pipeline to maximize character clarity:
      - **Background Removal**: Applied advanced filtering techniques to separate text from noisy, complex backgrounds.
      - **Character Segmentation**: Employed segmentation algorithms to isolate individual characters from the CAPTCHA string, treating each character as a distinct classification task.
-* **2. Model Exploration**
-     We explored three distinct machine learning architectures to find the optimal balance between accuracy and computational cost:
+* **2. Model Exploration** <br> We explored three distinct machine learning architectures to find the optimal balance between accuracy and computational cost:
      - **Support Vector Machines (SVM)**: Tested for their effectiveness in high-dimensional spaces.
      - **Convolutional Neural Networks (CNN)**: Evaluated for their ability to learn spatial hierarchies in image data.
      - **Logistic Regression**: Analyzed for simplicity and speed.
