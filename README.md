@@ -13,7 +13,7 @@ The primary goal of DeCaptcha is to automate the recognition of text within CAPT
      - **Support Vector Machines (SVM)**: Tested for their effectiveness in high-dimensional spaces.
      - **Convolutional Neural Networks (CNN)**: Evaluated for their ability to learn spatial hierarchies in image data.
      - **Logistic Regression**: Analyzed for simplicity and speed.
-     - 
+     
 ## 🏆 Performance & Results
 After a comprehensive evaluation of all three approaches, **Logistic Regression** emerged as the optimal choice, outperforming more complex models in terms of efficiency while maintaining high accuracy.
 |Metric|Result|
@@ -26,7 +26,7 @@ After a comprehensive evaluation of all three approaches, **Logistic Regression*
 - **High Precision**: The final model achieves a 98.5% accuracy rate on the recognition task.
 - **Ultra-Lightweight**: At just 174KB, the model is incredibly resource-efficient compared to typical deep learning weights.
 - **Real-Time Speed**: With a prediction latency of only 4 milliseconds, the system is suitable for high-throughput environments.
-- 
+
 ##🔮 Future Improvements
 - Handling overlapping characters with advanced segmentation.
 - Expanding the dataset to include variable-length CAPTCHAs.
